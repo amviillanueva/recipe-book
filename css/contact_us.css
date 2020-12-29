@@ -12,18 +12,12 @@ body {
 
 form{
   width: 30vw;
-  height: 65vh;
+  max-height: 65vh;
   background: #f1f1f1;
   padding: 1.5rem 3rem 2.5rem 3rem;
   border-radius: .7rem;
   overflow-y: scroll;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: flex;
-}
-
-form div {
-  width: 100%;
-  align-self: center;
 }
 
 h1{
