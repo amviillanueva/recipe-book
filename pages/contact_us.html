@@ -6,6 +6,7 @@
     <title>Recipe</title>
     <link rel="stylesheet" href="../css/contact_us.css">
     <link rel="stylesheet" href="../css/navigation.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navigation">
@@ -16,25 +17,25 @@
         <a href="contact_us.html" id="contact-us-nav" class="link-right selected">CONTACT US</a>
     </nav>
     
-    <div>
-     <form>
-    <h1> CONTACT US </h1>
-            <label for="fname">FULL NAME</label><br><br>
-            <input type="text" id="fname" name="fname" placeholder="Enter Your Name"><br><br>
-            <label for="lname">EMAIL</label><br><br>
-            <input type="text" id="email" name="email" placeholder="Enter Your Email"><br><br>
-            <label for="fname">PHONE</label><br><br>
-            <input type="text" id="phone" name="phone" placeholder="Enter Your Phone Number"><br><br>
-            <label for="lname">MESSAGE</label><br><br>
-            <textarea placeholder="some messages..."></textarea><br><br>
-            <br>
-            <button onclick="handleButton()">SUBMIT</button>
-</form>
-</div>
-			 <script>
-			 	function handleButton(){
-			 	alert('OKS NA GUYS');
-			 }
-            </script>
+    <div class="container">
+        <form onsubmit="handleSubmit()">
+            <h1> CONTACT US </h1>
+
+            <label for="name">FULL NAME</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br><br>
+
+            <label for="email">EMAIL</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+
+            <label for="phone">PHONE</label><br>
+            <input type="number" id="phone" name="phone" placeholder="Enter Your Phone Number"><br><br>
+
+            <label for="message">MESSAGE</label><br>
+            <textarea id="message" placeholder="Enter your message..." required></textarea><br><br>
+            
+            <input type="submit" class="button" value="SUBMIT">
+        </form>
+    </div>
+    <script src="../js/contact_us.js"></script>
 </body>
 </html>
