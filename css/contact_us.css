@@ -1,3 +1,78 @@
 body {
     background-color: #F2EAEA;
+    margin: 0;
+    padding: 0;
+}
+
+
+    
+
+
+form{
+    width: 650px;
+    height: 700px;
+    background: #f1f1f1;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 600px;
+    padding-left: 50px;
+    border-radius: 8px;
+    border: 5px;
+    
+}
+
+h1{
+ text-align: center;
+ font-family: "Lucida Console", "Courier New", monospace;
+ font-size: 40px;
+}
+input[type=text] {
+  width: 600px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+    width: 600px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    resize: none;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  
+  text-align: center;
+
+  font-size: 16px;
+  border-radius: 20px;
+  margin-left: 50px;
+  height: 40px;
+  width: 500px;
+}
+button:hover {
+  background-color: black;
+  border: none;
+  color: white;
+ 
+  text-align: center;
+
+  font-size: 16px;
+  border-radius: 20px;
+  margin-left: 50px;
+  height: 40px;
+  width: 500px;
+}
+form {
+
+}
+label {
+    
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
 }
