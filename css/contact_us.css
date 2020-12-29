@@ -28,8 +28,8 @@ form div {
 
 h1{
  text-align: center;
- font-family: "Lucida Console", "Courier New", monospace;
- font-size: 1.2rem;
+ font-family: "Lucida Console", "Syne", "Courier New", monospace;
+ font-size: 1.4rem;
 }
 
 input {
@@ -67,6 +67,6 @@ textarea {
 }
 
 label {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Lucida Console", "Syne", "Courier New", monospace;
   font-size: .8rem;
 }
