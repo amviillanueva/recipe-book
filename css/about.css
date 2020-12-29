@@ -1,14 +1,18 @@
 body {
     background-color: #F2EAEA;
-	font-family: 'Helvetica';}
+    font-family: 'Helvetica';
+}
 
 .container {
     margin: 5%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
 }
 
 .container div {
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
