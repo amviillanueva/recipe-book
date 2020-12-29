@@ -1,3 +1,14 @@
 body {
     background-color: #F2EAEA;
 }
+
+.container {
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container div {
+    justify-self: center;
+}
