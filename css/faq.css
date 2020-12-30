@@ -1,10 +1,10 @@
 body {
-    background-color: #F2EAEA;
+	background-color: #F2EAEA;
+	margin: 6% 7% 2% 7%;
 }
 
 .p1
 {
-	text-indent: 100px;
 	color: black;
 	font-weight: bolder;
 	font-family: 'Helvetica';
@@ -12,7 +12,8 @@ body {
 
 .p2
 {
-	text-indent: 100px;
 	color: black;
 	font-family: 'Helvetica';
+	width: 85%;
+	line-height: 1.5;
 }

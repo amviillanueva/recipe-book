@@ -1,6 +1,6 @@
 .navigation {
     color:#3C0606;
-    margin: 6% 7% 2% 7%;
+    margin-bottom: 2%;
     width: 100%;
     display: flex;
     justify-content: start;
@@ -16,7 +16,6 @@
 
 .link-right {
     margin-left: auto;
-    margin-right: 14%;
 }
 
 .navigation .selected {
