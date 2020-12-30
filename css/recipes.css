@@ -17,6 +17,7 @@ body {
     text-align: center;
     margin: 20px;
     cursor: pointer;
+    width: 30%;
 }
 
 .dish:hover{
@@ -24,21 +25,24 @@ body {
 }
 
 img{
-    width: 300px;
+    width: 100%;
     height: auto;
+}
+
+.display-dish {
+    margin: 2rem 4.5rem;
 }
 
 .none{
     display: none;
 }
 
-@media (max-width: 900px){
+@media (max-width: 720px){
     .container {
         flex-direction: column;
     }  
 
-    img{
-        width: 100%;
-        height: auto;
+    .dish{
+        width: 80%;
     }
 }
