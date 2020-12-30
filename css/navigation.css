@@ -1,17 +1,21 @@
+body {
+    margin: 0;
+}
+
 .navigation {
-    color:#3C0606;
-    margin-bottom: 2%;
-    width: 100%;
+    background-color: #dc3f0a;
+    color:#eef1ef;
+    padding: 0 2rem;
     display: flex;
     justify-content: start;
-    gap: 5%;
-    font-family: 'Montserrat';
+    font-family: 'Helvetica';
 }
 
 .navigation a {
     color: inherit;
     text-decoration: none;
     font-weight: 400;
+    padding: 1.2rem 2rem;
 }
 
 .link-right {
@@ -23,7 +27,8 @@
 }
 
 .navigation a:hover {
-    color: #8E4747;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* color: #8E4747; */
 }
 
 .navigation .selected:hover {

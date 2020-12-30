@@ -1,18 +1,20 @@
 body {
-    background-color: #F2EAEA;
+    background-color: white;
     font-family: 'Helvetica';
-    margin: 6% 7% 2% 7%;
 }
 
 .container {
+    margin: 2rem 4.5rem;
+}
+
+.div-container {
     margin: 5%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-around;
 }
 
-.container div {
+.div-container div {
     display: flex;
     flex-direction: column;
     align-items: center;

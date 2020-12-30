@@ -1,6 +1,16 @@
 body {
-	background-color: #F2EAEA;
-	margin: 6% 7% 2% 7%;
+	background-color: white;
+}
+
+.container {
+	margin: 2rem 4.5rem;
+}
+
+.item {
+	background-color: whitesmoke;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
 }
 
 .p1
@@ -14,6 +24,6 @@ body {
 {
 	color: black;
 	font-family: 'Helvetica';
-	width: 85%;
 	line-height: 1.5;
+	text-align: justify;
 }

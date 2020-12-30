@@ -1,5 +1,44 @@
 body {
-    background-color: #F2EAEA;
+    background-color: white;
     font-family: 'Helvetica';
-    margin: 6% 7% 2% 7%;
+}
+
+.container {
+    margin: 2rem 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dish {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.dish:hover{
+    transform: scale(1.1);
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+.none{
+    display: none;
+}
+
+@media (max-width: 900px){
+    .container {
+        flex-direction: column;
+    }  
+
+    img{
+        width: 100%;
+        height: auto;
+    }
 }
