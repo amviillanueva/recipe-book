@@ -4,14 +4,14 @@ body {
 }
 
 .container {
-    margin: 2rem 4.5rem;
+    margin: 4rem 4.5rem;
 }
 
 .div-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .dev {
@@ -19,7 +19,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
     width: 18%;
 }
 

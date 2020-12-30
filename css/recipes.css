@@ -4,13 +4,13 @@ body {
 }
 
 .container {
-    margin: 2rem 4.5rem;
+    margin: 4rem 4.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.dish {
+.dish, .food {
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 20px;
@@ -18,9 +18,10 @@ body {
     margin: 20px;
     cursor: pointer;
     width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.dish:hover{
+.dish:hover, .food:hover {
     transform: scale(1.1);
 }
 
@@ -30,7 +31,26 @@ img{
 }
 
 .display-dish {
-    margin: 2rem 4.5rem;
+    padding: 2rem 4.5rem;
+}
+
+.dishes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.display-dish h2 {
+    margin: 2rem;
+    text-align: center;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
 }
 
 .none{

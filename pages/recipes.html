@@ -20,7 +20,7 @@
     <div class="container">
         <div class="dish" onclick="dishDisplay('main')">
             <img src="https://www.foxyfolksy.com/wp-content/uploads/2015/05/Sizzling-Sisig-640.jpg" alt="main-dish">
-            <h4>MAIN</h4>
+            <h4>MAIN DISH</h4>
         </div>
 
         <div class="dish" onclick="dishDisplay('side')">
@@ -35,15 +35,37 @@
     </div>
 
     <div id="display-dish-main" class="display-dish none">
-        <p id="dish-type">main</p>
+        <h2>MAIN DISH</h2>
+        <div class="dishes">
+            <div class="food">
+                <img src="../images/perfectRoastedBeefTenderloin.png" alt="PerfectRoastedBeefTenderloin">
+                <p class="food-name">Perfect Roasted Beef Tenderloin</p>
+            </div>
+            <div class="food">
+                <img src="../images/HamForTwo.png" alt="HamForTwo">
+                <p class="food-name">Ham For Two</p>
+            </div>
+            <div class="food">
+                <img src="../images/PastaPrimavera.png" alt="HamForTwo">
+                <p class="food-name">Pasta Primavera</p>
+            </div>
+            <div class="food">
+                <img src="../images/Penne.png" alt="HamForTwo">
+                <p class="food-name">Penne with Butter Squazh</p>
+            </div>
+            <div class="food">
+                <img src="../images/MacAndCheese.png" alt="HamForTwo">
+                <p class="food-name">Mac and Cheese</p>
+            </div>
+        </div>  
     </div>
 
     <div id="display-dish-side" class="display-dish none">
-        <p id="dish-type">side</p>
+        <h2>SIDE DISH</h2>
     </div>
 
     <div id="display-dish-dessert" class="display-dish none">
-        <p id="dish-type">dessert</p>
+        <h2>DESSERT</h2>
     </div>
 
     <script src="../js/recipes.js"></script>

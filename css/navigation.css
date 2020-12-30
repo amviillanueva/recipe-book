@@ -9,6 +9,9 @@ body {
     display: flex;
     justify-content: start;
     font-family: 'Helvetica';
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .navigation a {
