@@ -41,8 +41,8 @@
     <div id="display-dish-main" class="display-dish none">
         <h2>MAIN DISH</h2>
         <div class="dishes">
-            <div class="food">
-                <img src="../images/perfectRoastedBeefTenderloin.png" alt="PerfectRoastedBeefTenderloin">
+            <div class="food" onclick="openModal('PerfectRoastedBeefTenderloin')">
+                <img src="../images/PerfectRoastedBeefTenderloin.png" alt="PerfectRoastedBeefTenderloin">
                 <p class="food-name">Perfect Roasted Beef Tenderloin</p>
             </div>
             <div class="food">
@@ -69,23 +69,23 @@
          <div class="dishes">
             <div class="food">
                 <img src="../images/CollardGreens.jpeg" alt="CollardGreens">
-                <p class="food-name">Perfect Roasted Beef Tenderloin</p>
+                <p class="food-name">Collard Greens</p>
             </div>
             <div class="food">
                 <img src="../images/CreamedCorn.jpeg" alt="CreamedCorn">
-                <p class="food-name">Ham For Two</p>
+                <p class="food-name">Creamed Corn</p>
             </div>
             <div class="food">
                 <img src="../images/CreamyMashedPotatoes.jpeg" alt="CreamyMashedPotatoes">
-                <p class="food-name">Pasta Primavera</p>
+                <p class="food-name">Creamy Mashed Potatoes</p>
             </div>
             <div class="food">
                 <img src="../images/RoastedSweetPotatoeswithHoneyandCinnamon.jpeg" alt="RoastedSweetPotatoeswithHoneyandCinnamon">
-                <p class="food-name">Penne with Butter Squazh</p>
+                <p class="food-name">Roasted Sweet Potatoes</p>
             </div>
             <div class="food">
                 <img src="../images/SauteedCarrots.jpeg" alt="SauteedCarrots">
-                <p class="food-name">Mac and Cheese</p>
+                <p class="food-name">Sauteed Carrots</p>
             </div>
         </div>  
     </div>
@@ -96,25 +96,59 @@
         <div class="dishes">
             <div class="food">
                 <img src="../images/BananaPudding.jpeg" alt="BananaPudding">
-                <p class="food-name">Perfect Roasted Beef Tenderloin</p>
+                <p class="food-name">Banana Pudding</p>
             </div>
             <div class="food">
                 <img src="../images/DarkChocolateMousse.jpeg" alt="DarkChocolateMousse">
-                <p class="food-name">Ham For Two</p>
+                <p class="food-name">Dark Chocolate Mousse</p>
             </div>
             <div class="food">
                 <img src="../images/MaltedMilkChocolateChipCookies.jpeg" alt="MaltedMilkChocolateChipCookies">
-                <p class="food-name">Pasta Primavera</p>
+                <p class="food-name">Malted Milk Chocolate Chip Cookies</p>
             </div>
             <div class="food">
                 <img src="../images/MiniaturePeanutButterandJellyPies.jpeg" alt="RMiniaturePeanutButterandJellyPies">
-                <p class="food-name">Penne with Butter Squazh</p>
+                <p class="food-name">Miniature Peanut Butter and Jelly Pies</p>
             </div>
             <div class="food">
                 <img src="../images/PeanutButterBarswithSaltedChocolateGanache.jpeg" alt="PeanutButterBarswithSaltedChocolateGanache">
-                <p class="food-name">Mac and Cheese</p>
+                <p class="food-name">Peanut Butter Bars</p>
             </div>
         </div>  
+    </div>
+
+    <div id="PerfectRoastedBeefTenderloin" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Perfect Roasted Beef Tenderloin</h3>
+          <div class="img-and-ingredients">
+            <div class="ingredients">
+                <strong>Ingredients</strong>
+                <p class="indent-details">
+                    3 tablespoons unsalted butter, softened <br>
+                    5 teaspoons kosher salt <br>
+                    1 teaspoon dry mustard <br>
+                    ¾ teaspoon black pepper <br>
+                    2 of garlic, minced <br>
+                    1 beef tenderloin, trimmed <br>
+                </p>
+            </div>  
+            <img class="img-recipe" src="../images/PerfectRoastedBeefTenderloin.png" alt="PerfectRoastedBeefTenderloin">
+          </div>
+          <div class="directions">
+            <strong>Directions</strong>
+            <p class="indent-details">
+                <b>Step 1:</b>
+                Stir together butter, salt, mustard, pepper, and garlic. Place beef on a wire rack in a rimmed baking sheet. 
+                Rub butter mixture all over beef, and chill, uncovered, at least 8 hours.
+                <br><br>
+                <b>Step 2:</b>
+                Let beef stand about 20 minutes at room temperature. Preheat oven to 425°F. Bake in preheated oven until a meat 
+                thermometer inserted into thickest portion registers 135°F (medium-rare), 25 to 30 minutes. Cover loosely with 
+                aluminum foil; let rest about 15 minutes before slicing.
+            </p>
+          </div>
+        </div>
     </div>
 
     <script src="../js/recipes.js"></script>
