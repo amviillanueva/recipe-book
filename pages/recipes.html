@@ -38,6 +38,8 @@
         </div>
     </div>
 
+    <!-- DISH TYPES -->
+
     <div id="display-dish-main" class="display-dish none">
         <h2>MAIN DISH</h2>
         <div class="dishes">
@@ -45,19 +47,19 @@
                 <img src="../images/PerfectRoastedBeefTenderloin.png" alt="PerfectRoastedBeefTenderloin">
                 <p class="food-name">Perfect Roasted Beef Tenderloin</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('HamForTwo')">
                 <img src="../images/HamForTwo.png" alt="HamForTwo">
                 <p class="food-name">Ham For Two</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('PastaPrimavera')">
                 <img src="../images/PastaPrimavera.png" alt="HamForTwo">
                 <p class="food-name">Pasta Primavera</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('Penne')">
                 <img src="../images/Penne.png" alt="HamForTwo">
                 <p class="food-name">Penne with Butter Squazh</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('MacAndCheese')">
                 <img src="../images/MacAndCheese.png" alt="HamForTwo">
                 <p class="food-name">Mac and Cheese</p>
             </div>
@@ -67,23 +69,23 @@
     <div id="display-dish-side" class="display-dish none">
         <h2>SIDE DISH</h2>
          <div class="dishes">
-            <div class="food">
+            <div class="food" onclick="openModal('CollardGreens')">
                 <img src="../images/CollardGreens.jpeg" alt="CollardGreens">
                 <p class="food-name">Collard Greens</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('CreamedCorn')">
                 <img src="../images/CreamedCorn.jpeg" alt="CreamedCorn">
                 <p class="food-name">Creamed Corn</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('CreamyMashedPotatoes')">
                 <img src="../images/CreamyMashedPotatoes.jpeg" alt="CreamyMashedPotatoes">
                 <p class="food-name">Creamy Mashed Potatoes</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('RoastedSweetPotatoeswithHoneyandCinnamon')">
                 <img src="../images/RoastedSweetPotatoeswithHoneyandCinnamon.jpeg" alt="RoastedSweetPotatoeswithHoneyandCinnamon">
                 <p class="food-name">Roasted Sweet Potatoes</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('SauteedCarrots')">
                 <img src="../images/SauteedCarrots.jpeg" alt="SauteedCarrots">
                 <p class="food-name">Sauteed Carrots</p>
             </div>
@@ -94,28 +96,37 @@
     <div id="display-dish-dessert" class="display-dish none">
         <h2>DESSERT</h2>
         <div class="dishes">
-            <div class="food">
+            <div class="food" onclick="openModal('BananaPudding')">
                 <img src="../images/BananaPudding.jpeg" alt="BananaPudding">
                 <p class="food-name">Banana Pudding</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('DarkChocolateMousse')">
                 <img src="../images/DarkChocolateMousse.jpeg" alt="DarkChocolateMousse">
                 <p class="food-name">Dark Chocolate Mousse</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('MaltedMilkChocolateChipCookies')">
                 <img src="../images/MaltedMilkChocolateChipCookies.jpeg" alt="MaltedMilkChocolateChipCookies">
                 <p class="food-name">Malted Milk Chocolate Chip Cookies</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('MiniaturePeanutButterandJellyPies')">
                 <img src="../images/MiniaturePeanutButterandJellyPies.jpeg" alt="RMiniaturePeanutButterandJellyPies">
                 <p class="food-name">Miniature Peanut Butter and Jelly Pies</p>
             </div>
-            <div class="food">
+            <div class="food" onclick="openModal('PeanutButterBarswithSaltedChocolateGanache')">
                 <img src="../images/PeanutButterBarswithSaltedChocolateGanache.jpeg" alt="PeanutButterBarswithSaltedChocolateGanache">
                 <p class="food-name">Peanut Butter Bars</p>
             </div>
         </div>  
     </div>
+
+    <!-- 
+        MAIN DISHES (ids)
+        PerfectRoastedBeefTenderloin
+        HamForTwo
+        PastaPrimavera
+        Penne
+        MacAndCheese
+    -->
 
     <div id="PerfectRoastedBeefTenderloin" class="modal">
         <div class="modal-content">
@@ -150,6 +161,24 @@
           </div>
         </div>
     </div>
+
+    <!-- 
+        SIDE DISHES ids
+        CollardGreens
+        CreamedCorn
+        CreamyMashedPotatoes
+        RoastedSweetPotatoeswithHoneyandCinnamon
+        SauteedCarrots
+    -->
+
+    <!-- 
+        DESSERT ids 
+        BananaPudding
+        DarkChocolateMousse
+        MaltedMilkChocolateChipCookies
+        MiniaturePeanutButterandJellyPies
+        PeanutButterBarswithSaltedChocolateGanache
+    -->
 
     <script src="../js/recipes.js"></script>
 </body>
