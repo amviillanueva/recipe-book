@@ -23,12 +23,16 @@ function dishDisplay(type){
 
 function openModal(recipeId) {
     const modal = document.getElementById(recipeId);
-    const span = document.getElementsByClassName("close")[0];
     modal.style.display = "block";
 
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
+    Array.from(document.getElementsByClassName("close")).forEach(
+        function(element, index, array) {
+            element.onclick = function() {
+                console.log('hi')
+                modal.style.display = "none";
+            }
+        }
+    );
 
     window.onclick = function(event) {
         if (event.target == modal) {

@@ -12,6 +12,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .dev {
@@ -20,7 +21,7 @@ body {
     border-radius: 20px;
     text-align: center;
     margin: 20px 0;
-    width: 18%;
+    width: 15%;
 }
 
 img {
