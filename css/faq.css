@@ -7,11 +7,11 @@ body {
 
 .container {
 	margin: 2rem 4.5rem;
-	color: white;
+	color: #4a371c;
 }
 
 .item {
-	background-color:  #d3a662;
+	background-color:  #e9c48c;
 	padding: 1rem 2rem;
 	border-radius: 1rem;
 	margin-bottom: 2rem;

@@ -33,6 +33,16 @@ h2{
     width: 15%;
 }
 
+.dev > img {
+    width: auto;
+    height: 200px;
+}
+
+.jasmin > img {
+    height: 200px;
+    width: 95%;
+}
+
 img {
     width: 100%;
 }
