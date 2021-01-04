@@ -7,6 +7,7 @@ body {
 
 .container {
 	margin: 2rem 4.5rem;
+	color: white;
 }
 
 .item {
@@ -17,16 +18,12 @@ body {
 	font-family: 'Playfair Display';
 }
 
-.p1
-{
-	color: black;
+.p1 {
 	font-weight: bolder;
 	font-family: 'Playfair Display';
 }
 
-.p2
-{
-	color: black;
+.p2 {
 	font-family: 'Playfair Display';
 	line-height: 1.5;
 	text-align: justify;
