@@ -1,81 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
-  background-color: white;
-  font-family: 'Helvetica';
-}
-
+    background-color: white;
+    font-family: 'Playfair Display';
+  }
+  
 html, body {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0px;
 }
 
-slider {
-  display: flex;
-  width: 96%;
-  height: 50%;
-  background-color: #1f1f1f;
-  margin: 2%;
-  margin-right: 0;
-  overflow: hidden;
-  position: absolute;
+.header {
+    position: relative;
+    width: auto;
+    height: 40%;
+    background-image: url('https://coverfiles.alphacoders.com/142/thumb-1920-142042.jpg');
+    text-align: center;
 }
 
-slider > * {
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #1f1f1f;
-  animation: slide 12s infinite;
-  overflow: hidden;
+img {
+    width: auto;
+    height: 180px;
+    margin-top: 3.7%;
 }
 
-slide:nth-child(1) {
-  left: 0%;
-  animation-delay: -1s;
-  background-image: url('../images/11.jpg');
-  background-size: cover;
-  background-position: center;
+.container{
+    padding: 0 100px 0 100px;
 }
 
-slide:nth-child(2) {
-  animation-delay: 2s;
-  background-image: url('../images/12.jpg');
-  background-size: cover;
-  background-position: center;
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-slide:nth-child(3) {
-  animation-delay: 5s;
-  background-image: url('../images/13.jpg');
-  background-size: cover;
-  background-position: center;
+h2{
+    text-align: center;
+    color: white;
+    background-color:  #d3a662;
+    padding: 5px;
 }
 
-slide:nth-child(4) {
-  animation-delay: 8s;
-  background-image: url('../images/14.jpg');
-  background-size: cover;
-  background-position: center;
+h3{
+    margin-top: 2em;
+    text-align: center;
+    color:#694a1b;
 }
 
-slide p {
-  font-family: Comfortea;
-  font-size: 120px;
-  text-shadow: 10px 10px #000000;
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-  margin-top: 340px;
-  color: #fff;
+p{
+    color:#684614;
+    text-align: center;
 }
 
-@keyframes slide {
-  0% {left: 100%; width: 100%;}
-  5% {left: 0%;}
-  25% {left: 0%;}
-  30% {left: -100%; width: 100%;}
-  30.0001% {left: -100%; width: 0%;}
-  100% {left: 100%; width: 0%;}
+.subsection{
+    padding: 30px;
+    text-align: center;
 }
+
+.subsection > img {
+    border-radius: 50%;
+    transform: scale(1.25);
+}
+
+h1{
+    width: 50%;
+    text-align: center;
+    color:#684614;
+}
+
+.container-1{
+    padding: 0 100px 0 100px;
+}
+
+footer {
+    background-color:  #d3a662;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+   
+.footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+  }
